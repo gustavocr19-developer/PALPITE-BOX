@@ -9,7 +9,7 @@ const Index = () => {
   const { data, error } = useSWR('/api/get-promo', fetcher)
   return (
     <div>
-      <PageTitle title='Home' />
+      <PageTitle title='Seja bem-vindo' />
       <p className='mt-12 text-center'>
         O restaurante X sempre busca por atender melhor seus clientes.<br />
         Por isso, estamos sempre abertos a ouvir a sua opinião.

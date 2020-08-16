@@ -4,19 +4,15 @@ import PageTitle from '../components/PageTitle'
 
 const Contato = () => {
   return (
-    <React.Fragment>
+    <div>
       <PageTitle title='Contato' />
       <h1>Contato</h1>
       <div>
-        <Link href="/">
+        <Link href='/'>
           <a>Home</a>
         </Link>
-        <Link href="/sobre">
-          <a>Sobre</a>
-        </Link>
       </div>
-    </React.Fragment>
+    </div>
   )
 }
-
-export default Contato;
+export default Contato
