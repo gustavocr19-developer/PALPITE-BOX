@@ -7,11 +7,11 @@ const run = async () => {
   try {
     await doc.useServiceAccountAuth(credentials)
     await doc.loadInfo()
-    console.log(doc.title)
+    //console.log(doc.title)
 
     const sheet = doc.sheetsByIndex[2]
     await sheet.loadCells('A2:B2')
-    console.log(sheet.title)
+    //console.log(sheet.title)
 
     const mostraPromocaoCell = sheet.getCell(1, 0)
     console.log(mostraPromocaoCell.value)
